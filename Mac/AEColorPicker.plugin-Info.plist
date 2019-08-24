@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.PublicDomain.AEColorPicker</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AEColorPicker</string>
+	<key>CFBundleExecutable</key>
+	<string>AEColorPicker</string>
+	<key>CFBundlePackageType</key>
+	<string>AEgx</string>
+	<key>CFBundleSignature</key>
+	<string>FXTC</string>
+	<key>NSAppleScriptEnabled</key>
+	<string>No</string>
+	<key>LSRequiresCarbon</key>
+	<true/>
+</dict>
+</plist>
