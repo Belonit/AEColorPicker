@@ -1,1 +1,1 @@
-README
+You need to add only **SoSharedLibDefs.h** from [Adobe Bridge SDK](https://www.adobe.io/apis/creativecloud/bridge.html) to this folder.
