@@ -5,9 +5,9 @@ This is the Plugin and ExternalLibrary for Adobe After Effects, is intended to a
 <!--
 Project page:
 * https://github.com/Belonit/AEColorPicker
-Download:       
-* https://github.com/Belonit/AEColorPicker
 -->
+Download:       
+* https://github.com/Belonit/AEColorPicker/releases/
 
 Installing the plug-in for Adobe After Effects
 -------
