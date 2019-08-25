@@ -24,8 +24,12 @@ Copy AEColorPicker.plugin to the folder
 An example of using ExternalLibrary in JSX scripts.
 -------
 ```js
-var ExternalLibrary = new ExternalObject('lib:C:\\Color_Picker.aex'); 
-ExternalLibrary.colorPicker(0x20F186 /* color */, "dialog_title");
+var externalLibrary = new ExternalObject('lib:C:\\AEColorPicker.aex'); 
+var oldColor = 0x20F186;
+var newColor = externalLibrary.colorPicker(oldColor, "dialog_title");
+if(newColor == -1){ //Returns -1 if user clicked on cancel
+    newColor = oldColor;
+}
 ```
 
 Building
