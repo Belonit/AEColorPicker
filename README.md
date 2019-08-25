@@ -1,4 +1,5 @@
-<p align="center"> <img src=/Preview.png></p>
+<p align="center"> <img src=/Preview.png></p><br>
+
 AEColorPicker
 ================
 This is the Plugin and ExternalLibrary for Adobe After Effects, is intended to access from scripts to the built-in AE ColorPickerDialog, instead of the operating system dialog.
