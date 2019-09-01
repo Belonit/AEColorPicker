@@ -40,7 +40,7 @@ long colorPicker(TaggedData* args, long argsLength, TaggedData* pResult)
 			script.append(std::to_string((int)args[0].data.fltval));
 		}
 		script.append(" )");
-		pResult->data.string = (char*)script.c_str();
+		pResult->data.string = strdup(script.c_str());
 		return kESErrOK;
 	}
 	#define Float2uint8_t(value) (uint8_t)(value < 0 ? 0 : value > 1 ? 0xff : round(value*0xff))    //min & max + round
