@@ -9,6 +9,7 @@
 #ifdef AE_OS_WIN
 	#include <windows.h>
 	#define LibExport extern "C" __declspec(dllexport)
+	#define strdup _strdup
 #elif defined AE_OS_MAC
 	#include <dlfcn.h>
 	#define LibExport extern "C" __attribute__ ((visibility ("default")))
