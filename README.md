@@ -39,6 +39,3 @@ Building
 Visual Studio 2019 for Window, XCode 8 for MAC. Other than that, you will need [Adobe After Effects SDK](https://www.adobe.io/apis/creativecloud/aftereffects.html) and [Adobe Bridge SDK](https://www.adobe.io/apis/creativecloud/bridge.html). Installation instructions for SDKs are located in the corresponding subfolders in the [/SDK/](/SDK/)
 
 
-Future plans
--------
-Make ExternalLibraries work with other Adobe programs
